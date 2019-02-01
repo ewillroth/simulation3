@@ -1,0 +1,38 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.loginform {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.loginform button {
+  margin: 20px;
+}
+
+.logininput {
+  width: 120px;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: initial;
+}
+
+.toggle {
+  display: initial;
+  position: fixed;
+  top: 100px;
+}
+
+/*# sourceMappingURL=style.css.map */
