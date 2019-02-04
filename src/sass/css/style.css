@@ -35,4 +35,14 @@
   top: 100px;
 }
 
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.column button {
+  margin: 10px;
+}
+
 /*# sourceMappingURL=style.css.map */

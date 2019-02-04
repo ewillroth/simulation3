@@ -52,7 +52,7 @@ const foodOptions = (req,res) => {
 }
 
 const getFoodFriends = (req,res) => {
-	req.app.get('db').get_food_friends(req.body.food_id)
+	req.app.get('db').get_food_friends(req.query.food)
 	.then(response=>res.status(200).json(response))
 	.catch(err=>console.log(err))
 }

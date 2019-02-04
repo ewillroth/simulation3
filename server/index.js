@@ -33,6 +33,6 @@ app.post('/api/register', controller.register)
 app.get('/api/user', controller.getUser)
 app.get('/api/foodoptions', controller.foodOptions)
 app.get('/api/logout', controller.logout)
-app.get('/api/foodfriends', controller.getFoodFriends)
+app.get('/api/foodfriends/', controller.getFoodFriends)
 
 app.listen(port, ()=>console.log(`listening on ${port}`))
